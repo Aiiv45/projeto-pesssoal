@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vai dar namoro</title>
+    <title>Vai dar namoro</title>
     
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -15,18 +15,18 @@
     <header>
 
         <!--COLUNA 1-->
-        <div>
-            <!--IMAGEM DE PROCURA-SE-->
-        </div>
+        <picture>
+            <img src="img/img/procurase.png" class="cartaz">
+        </picture>
         
         <!-- COLUNA 2-->
         <h1>Dudinha</h1>
-        <h4>18 years</h4>
+        <h3>18 years</h3>
         <h4>im that girl</h4>
         
         <!--COLUNA 2-->
         <div>
-            <h3>NEM LEIA SE FOR:</h3>
+            <h2>NEM LEIA SE NÃO FOR:</h2>
             <ul>
                 <li> mais alto que eu                   
                 <li> vai pra academia
@@ -47,6 +47,7 @@
     </nav>
 
 
+
 <main>
     <article>
         <!--COLUNA 1-->
@@ -55,17 +56,15 @@
             <h5>sobre mim</h5> <!-- tem aquele "more" aqui, sla oq faz com isso-->
             <p>Meu nome eh duda, tenho 18 anos, e pretendo seguir na área de engenharia de dados, gasto meu tempo jogando,  estudando, e trabalhando, além de escutar mta musica e ser alt indie dreamcore aestetich. </p>
         </div>
-
         <div class="amarelin">
             <!-- SEGUNDA CAIXA-->
             <h5>conquistas</h5>
             <ul>
-                <li>formada em técnico em agroindústria e assistente administrativo;              
+                <li>formada em técnico em agroindústria e assistente administrativo;
                 <li>jovem aprendiz;
                 <li>magnata da tecnologia.
             </ul>
         </div>
-
         <div class="roxin">
             <!--TERCEIRA CAIXA-->
             <h5>gostos</h5>
@@ -82,78 +81,78 @@
                 <li>animes favs: jujutsu kaisen, Attack on Titan
             </ul>
         </div>
-
         <div class="vermelhin">
             <!--QUARTA CAIXA-->
             <h5>Entre em contato:</h5>
             <picture>
-                <!--IMAGEM LETTERBOXD-->
+                <img src="img/img/Letterboxd--Streamline-Simple-Icons.png" alt="Letterboxd icon" class="letterboxd"> <!-- qualidade não ta muito boa, depois trocar-->
             </picture>
 
             <picture>
-                <!--IMAGEM SPOTIFY-->
-            </picture>
-
-            <picture>
-                <!--IMAGEM TWTR-->
+                <img src="img/img/icons-spotify-40.png" alt="Logo do spotify" class="spotify">
             </picture>
             
             <picture>
-                <!--IMAGEM INSTAGRAM-->
+                <img src="img/img/icon-twitter-40.png" alt="Logo do Twitter" class="twitter">
+            </picture>
+
+            <picture>
+                <img src="img/img/icon-instagram-40.png" alt="Logo do instagram" class="instagram">
             </picture>
         </div>
-
-        <!--COLUNA DOIS-->
-        <div>
-            <!--PRIMEIRA CAIXA-->
-            <h2>Qualidades</h2>
-            <p>todas elas, mas vou citar as mais marcante</p>
-            <div>
-                <h3>Linda</h3>
-            </div>
-            <div>
-                <h3>Alternativa</h3>
-            </div>
-            <div>
-                <h3>Inteligente</h3>
-            </div>
-            <div>
-                <h3>Indepente</h3>
-            </div>
-            <div>
-                <h3>Estilosa</h3>
-            </div>
-            <div>
-                <h3>Alta</h3>
-            </div>
-        </div>
-
-        <picture>
-            <!-- [IMAGEM] Já sonhou com está mulher?-->
-        </picture>
     </article>
-
-    <footer>
-        <picture>
-            <!--PRIMEIRA FOTO-->
-        </picture>
-
-        <picture>
-            <!--SEGUNDA FOTO-->
-        </picture>
-
-        <h2>Me liga bb</h2>
-
-        <picture>
-            <!--TERCEIRA FOTO-->
-        </picture>
-
-        <picture>
-            <!--QUATRO FOTO-->
-        </picture>
-    </footer>
 </main>
+<!--COLUNA DOIS-->
+<aside>
+    <div class="colunadois">
+        <!--PRIMEIRA CAIXA-->
+        <h2>Qualidades</h2>
+        <p>todas elas, mas vou citar as mais marcante</p>
+        <div class="blocoverde">
+            <h3>Linda</h3>
+        </div>
+        <div class="blocoamarelo">
+            <h3>Alternativa</h3>
+        </div>
+        <div class="blocovermelho">
+            <h3>Inteligente</h3>
+        </div>
+        <div class="blocolaranja">
+            <h3>Indepente</h3>
+        </div>
+        <div class="blocovioleta">
+            <h3>Estilosa</h3>
+        </div>
+        <div class="blocorosa">
+            <h3>Alta</h3>
+        </div>
+    </div>
+    <picture>
+        <!-- [IMAGEM] Já sonhou com está mulher?-->
+    </picture>
+</aside>
 
+    
+
+<footer>
+    <picture>
+        <!--PRIMEIRA FOTO-->
+    </picture>
+
+    <picture>
+        <!--SEGUNDA FOTO-->
+    </picture>
+
+    <h2>Me liga bb</h2>
+
+    <picture>
+        <!--TERCEIRA FOTO-->
+    </picture>
+
+    <picture>
+        <!--QUATRO FOTO-->
+    </picture>
+</footer>
 
 </body>
 </html>
