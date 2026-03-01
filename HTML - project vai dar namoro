@@ -5,152 +5,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vai dar namoro</title>
+    <title>vai dar namoro</title>
     
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <header>
+  <header>
 
-        <!--COLUNA 1-->
-        <picture>
-            <img src="img/img/procurase.png" class="cartaz">
-        </picture>
-        
-        <!-- COLUNA 2-->
-        <h1>Dudinha</h1>
+    <!-- COLUNA 1 -->
+    <picture>
+        <img src="img/imm/procurase.png" class="cartaz">
+    </picture>
+
+    <!-- COLUNA 2 -->
+    <div class="header-direita">
+        <h1>Dudinha <3</h1>
         <h3>18 years</h3>
         <h4>im that girl</h4>
-        
-        <!--COLUNA 2-->
-        <div>
+
+        <div class="caixa-header">
             <h2>NEM LEIA SE NÃO FOR:</h2>
             <ul>
-                <li> mais alto que eu                   
-                <li> vai pra academia
-                <li> trabalha
-                <li> bonito
-                <li> twink
-                <li> apoia o feminismo!
+                <li>mais alto que eu</li>
+                <li>vai pra academia</li>
+                <li>trabalha</li>
+                <li>bonito</li>
+                <li>twink</li>
+                <li>apoia o feminismo!</li>
             </ul>
         </div>
-        
-    </header>
+    </div>
+
+</header>
     
     <nav>
-        <a href="#">sobre mim</a>
-        <a href="#">qualidades</a>
-        <a href="#">conquistas</a>
-        <a href="#">gostos</a>
+        <a href="#sobremim">sobre mim</a> <!--link leva ao ID="sobremim" -->
+        <a href="#qualidades">qualidades</a>
+        <a href="#conq">conquistas</a>
+        <a href="#gostos">gostos</a>
     </nav>
 
 
+<div class="container">
+    <main>
+        <article>
+            <!--COLUNA 1-->
+            <div class="azulzin">
+                <!-- PRIMEIRA CAIXA-->
+                <h5 id="sobremim">sobre mim</h5> 
+                <p>Meu nome eh duda, tenho 18 anos, e pretendo seguir na área de engenharia de dados, gasto meu tempo jogando,  estudando, e trabalhando, além de escutar mta musica e ser alt indie dreamcore aestetich. </p>
+            </div>
+            <div class="amarelin">
+                <!-- SEGUNDA CAIXA-->
+                <h5 id="conq">conquistas</h5>
+                <ul>
+                    <li>formada em técnico em agroindústria e assistente administrativo;
+                    <li>jovem aprendiz;
+                    <li>magnata da tecnologia.
+                </ul>
+            </div>
+            <div class="roxin">
+                <!--TERCEIRA CAIXA-->
+                <h5 id="gostos">gostos</h5>
+                <ul>
+                    <li>minha cor favorita eh roxo
+                    <li>comida favorita: churrasco
+                    <li>gosto de tomar sorvete
+                    <li>vou pra academia
+                    <li>estudo Exel, Power Bi
+                    <li>jogos favoritos: valorant e minecraft
+                    <li>artistas favoritos: wenszy, flvckka, pink pantheress, cannons, pastel ghost, crystal castles, darci, chase atlantic
+                    <li>generos musicais favoritos: indie, pop, house, alternativo, kpop, rock e outras vibes
+                    <li>genero de filme: terror (slasher, body horror, psicológico) e ação
+                    <li>animes favs: jujutsu kaisen, Attack on Titan
+                </ul>
+            </div>
+            <div class="vermelhin">
+                <!--QUARTA CAIXA-->
+                <h5>Entre em contato:</h5>
+                <picture>
+                    <img src="img/imm/Letterboxd--Streamline-Simple-Icons.png" alt="Letterboxd icon" class="letterboxd"> 
+                </picture>
 
-<main>
-    <article>
-        <!--COLUNA 1-->
-        <div class="azulzin">
-            <!-- PRIMEIRA CAIXA-->
-            <h5>sobre mim</h5> <!-- tem aquele "more" aqui, sla oq faz com isso-->
-            <p>Meu nome eh duda, tenho 18 anos, e pretendo seguir na área de engenharia de dados, gasto meu tempo jogando,  estudando, e trabalhando, além de escutar mta musica e ser alt indie dreamcore aestetich. </p>
-        </div>
-        <div class="amarelin">
-            <!-- SEGUNDA CAIXA-->
-            <h5>conquistas</h5>
-            <ul>
-                <li>formada em técnico em agroindústria e assistente administrativo;
-                <li>jovem aprendiz;
-                <li>magnata da tecnologia.
-            </ul>
-        </div>
-        <div class="roxin">
-            <!--TERCEIRA CAIXA-->
-            <h5>gostos</h5>
-            <ul>
-                <li>minha cor favorita eh roxo
-                <li>comida favorita: churrasco
-                <li>gosto de tomar sorvete
-                <li>vou pra academia
-                <li>estudo Exel, Power Bi
-                <li>jogos favoritos: valorant e minecraft
-                <li>artistas favoritos: wenszy, flvckka, pink pantheress, cannons, pastel ghost, crystal castles, darci, chase atlantic
-                <li>generos musicais favoritos: indie, pop, house, alternativo, kpop, rock e outras vibes
-                <li>genero de filme: terror (slasher, body horror, psicológico) e ação
-                <li>animes favs: jujutsu kaisen, Attack on Titan
-            </ul>
-        </div>
-        <div class="vermelhin">
-            <!--QUARTA CAIXA-->
-            <h5>Entre em contato:</h5>
-            <picture>
-                <img src="img/img/Letterboxd--Streamline-Simple-Icons.png" alt="Letterboxd icon" class="letterboxd"> <!-- qualidade não ta muito boa, depois trocar-->
-            </picture>
+                <picture>
+                    <img src="img/imm/icons-spotify-40.png" alt="Logo do spotify" class="spotify">
+                </picture>
+                
+                <picture>
+                    <img src="img/imm/icon-twitter-40.png" alt="Logo do Twitter" class="twitter">
+                </picture>
 
-            <picture>
-                <img src="img/img/icons-spotify-40.png" alt="Logo do spotify" class="spotify">
-            </picture>
-            
-            <picture>
-                <img src="img/img/icon-twitter-40.png" alt="Logo do Twitter" class="twitter">
-            </picture>
+                <picture>
+                    <img src="img/imm/icon-instagram-40.png" alt="Logo do instagram" class="instagram">
+                </picture>
+            </div>
+        </article>
+    </main>
 
-            <picture>
-                <img src="img/img/icon-instagram-40.png" alt="Logo do instagram" class="instagram">
-            </picture>
+    <!--COLUNA DOIS-->
+    <aside>
+        <div class="colunadois">
+            <!--PRIMEIRA CAIXA-->
+            <h2 id="qualidades">Qualidades</h2>
+            <p>todas elas, mas vou citar as mais marcante</p>
+            <div class="blocoverde">
+                <h3>Linda</h3>
+            </div>
+            <div class="blocoamarelo">
+                <h3>Alternativa</h3>
+            </div>
+            <div class="blocovermelho">
+                <h3>Inteligente</h3>
+            </div>
+            <div class="blocolaranja">
+                <h3>Indepente</h3>
+            </div>
+            <div class="blocovioleta">
+                <h3>Estilosa</h3>
+            </div>
+            <div class="blocorosa">
+                <h3>Alta</h3>
+            </div>
         </div>
-    </article>
-</main>
-<!--COLUNA DOIS-->
-<aside>
-    <div class="colunadois">
-        <!--PRIMEIRA CAIXA-->
-        <h2>Qualidades</h2>
-        <p>todas elas, mas vou citar as mais marcante</p>
-        <div class="blocoverde">
-            <h3>Linda</h3>
-        </div>
-        <div class="blocoamarelo">
-            <h3>Alternativa</h3>
-        </div>
-        <div class="blocovermelho">
-            <h3>Inteligente</h3>
-        </div>
-        <div class="blocolaranja">
-            <h3>Indepente</h3>
-        </div>
-        <div class="blocovioleta">
-            <h3>Estilosa</h3>
-        </div>
-        <div class="blocorosa">
-            <h3>Alta</h3>
-        </div>
-    </div>
-    <picture>
-        <!-- [IMAGEM] Já sonhou com está mulher?-->
-    </picture>
-</aside>
-
+        <picture>
+            <img src="img/imm/sonhou.png" alt="já sonhou com essa mulher?">
+        </picture>
+    </aside>
+</div>
     
 
 <footer>
     <picture>
-        <!--PRIMEIRA FOTO-->
+        <img src="img/imm/tirsty.jpg" alt="tristy">
     </picture>
 
     <picture>
-        <!--SEGUNDA FOTO-->
+        <img src="img/imm/flor.jpg" alt="toma uma flor">
     </picture>
 
-    <h2>Me liga bb</h2>
+    <h2>me liga bb ;&#41;</h2>
 
     <picture>
-        <!--TERCEIRA FOTO-->
+        <img src="img/imm/hot.jpg" alt="so hot">
     </picture>
 
-    <picture>
-        <!--QUATRO FOTO-->
+    <picture class="woops">
+        <img src="img/imm/woops.jpg" alt="woops rsrs">
     </picture>
 </footer>
 
